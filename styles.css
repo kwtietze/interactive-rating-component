@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Overpass', sans-serif;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  weight: 700;
+  font-size: 30px;
+  margin: 0;
+}
+
+.rating-p {
+  color: hsl(217, 12%, 63%);
+  weight: 400;
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+.card-rating {
+  background: radial-gradient(circle at top, hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+  height: 340px;
+  width: 300px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 24px;
+  /* HIDE THIS CARD */
+  display: none;
+}
+
+.star-container {
+  background: hsl(213, 19%, 18%);
+  border-radius: 30px;
+  height: 45px;
+  width: 45px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.star-icon {
+  height: 15px;
+}
+
+.options {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  margin: 30px 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+li {
+  margin: 0;
+}
+
+.rating-btn {
+  background: hsl(213, 19%, 18%);
+  border: none;
+  color: hsl(216, 12%, 54%);
+  height: 45px;
+  width: 45px;
+  border-radius: 30px;
+}
+
+.rating-btn:hover {
+  background: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background: hsl(25, 97%, 53%);
+  border: none;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 30px;
+  display: block;
+  width: 100%;
+  padding: 15px;
+}
+
+.btn-submit:hover {
+  background: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.card-thankyou {
+  background: radial-gradient(circle at top, hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+  height: 340px;
+  width: 320px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+img {
+  height: 100px;
+}
+
+.selection-container {
+  background: hsl(213, 19%, 18%);
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 8px;
+  width: 190px;
+}
+
+.selection {
+  color: hsl(25, 97%, 53%);
+}
+
+.thankyou-heading {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.appreciate-p {
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.attribution {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
