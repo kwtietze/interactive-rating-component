@@ -53,19 +53,19 @@
         </li>
       </ul>
 
-      <button class="btn-submit">S U B M I T</button>
+      <button class="btn-submit" id="submit">S U B M I T</button>
     </div>
 
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-    <div class="card-thankyou">
+    <div class="card-thankyou hidden">
       <div class="img-container">
         <img src="./images/illustration-thank-you.svg" alt="">
       </div>
       <div class="selection-container">
         <p class="selection">
-          You selected <!-- Add rating here --># out of 5
+          You selected <span id="rating"></span> out of 5
         </p>
       </div>
 
@@ -75,6 +75,7 @@
         We appreciate you taking the time to give a rating. If you ever need more support,
         don’t hesitate to get in touch!
       </p>
+      <button class="btn-submit" id="rate-again">Rate Again</button>
     </div>
 
     <!-- Thank you state end -->
@@ -86,5 +87,6 @@
     Coded by <a href="https://www.karltietze.com">Karl Tietze</a>.
   </div>
 
+  <script src="./app.js"></script>
 </body>
 </html>
